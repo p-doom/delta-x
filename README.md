@@ -7,6 +7,7 @@
 | Fast R-CNN                                                              | Fast R-CNN           | R-CNN but with RoI pooling                                                                          |
 | Faster R-CNN                                                            | Faster R-CNN         | Fast R-CNN but with a region proposal network                                                       |
 | Focal Loss for Dense Object Detection                                   | RetinaNet            | FPN but with a one-stage detector                                                                   |
+| Leveraging Pre-trained Checkpoints for Sequence Generation Tasks        | -                    | Encoder-Decoder Transformer, but with pre-trained BERT/GPT-style encoder/decoder checkpoints        |
 | Swin Transformer: Hierarchical Vision Transformer using Shifted Windows | Swin Transformer     | ViT but with a patch size hierarchy                                                                 |
 | Per-Pixel Classification is Not All You Need for Semantic Segmentation  | MaskFormer           | DETR but with per-instance binary masks                                                             |
 | Masked-attention Mask Transformer for Universal Image Segmentation      | Mask2Former          | MaskFormer but with masked attention around objects/regions and multi-scale pixel decoder features  |
