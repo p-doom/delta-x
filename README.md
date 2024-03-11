@@ -14,4 +14,5 @@
 | Momentum Contrast for Unsupervised Visual Representation Learning                  | MoCo                 | Contrastive learning but with one momentum-updated encoder                                          |
 | Training Transitive and Commutative Multimodal Transformers with LoReTTa           | LoReTTa              | ImageBind but with Transformers                                                                     |
 | When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method | -                    | Chinchilla scaling laws but for finetuning                                                          |
+| Scaling Data-Constrained Language Models                                           | Datablation          | Chinchilla scaling laws but for the data-constrained regime                                         |
 
