@@ -13,6 +13,7 @@
 | Masked-attention Mask Transformer for Universal Image Segmentation                 | Mask2Former          | MaskFormer but with masked attention around objects/regions and multi-scale pixel decoder features  |
 | Momentum Contrast for Unsupervised Visual Representation Learning                  | MoCo                 | Contrastive learning but with one momentum-updated encoder                                          |
 | Training Transitive and Commutative Multimodal Transformers with LoReTTa           | LoReTTa              | ImageBind but with Transformers                                                                     |
+| ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts          | ProtST               | CLIP but with proteins and functional annotations                                                   |
 | When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method | -                    | Chinchilla scaling laws but for finetuning                                                          |
 | Scaling Data-Constrained Language Models                                           | Datablation          | Chinchilla scaling laws but for the data-constrained regime                                         |
 
