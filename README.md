@@ -18,5 +18,6 @@
 | Scaling Data-Constrained Language Models                                           | Datablation          | Chinchilla scaling laws but for the data-constrained regime                                         |
 | Online normalizer calculation for softmax                                          | -                    | Softmax calculation but online/ streaming/ blockwise                                                |
 | FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness        | FlashAttention       | Online softmax but with attention checkpointing                                                     |
-| Blockwise Parallel Transformer for Large Context Models                            | BPT                  | FlashAttention but fusing blockwise attention with FFN                                               |
+| Blockwise Parallel Transformer for Large Context Models                            | BPT                  | FlashAttention but fusing blockwise attention with FFN                                              |
+| Ring Attention with Blockwise Transformers for Near-Infinite Context               | Ring Attention       | BPT but distribute blocks across devices & overlap computation and communication                    |
 
