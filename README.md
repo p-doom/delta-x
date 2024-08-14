@@ -16,4 +16,6 @@
 | ProtST: Multi-Modality Learning of Protein Sequences and Biomedical Texts          | ProtST               | CLIP but with proteins and functional annotations                                                   |
 | When Scaling Meets LLM Finetuning: The Effect of Data, Model and Finetuning Method | -                    | Chinchilla scaling laws but for finetuning                                                          |
 | Scaling Data-Constrained Language Models                                           | Datablation          | Chinchilla scaling laws but for the data-constrained regime                                         |
+| Online normalizer calculation for softmax                                          | -                    | Softmax calculation but online/ streaming/ blockwise                                                |
+| FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness        | FlashAttention       | Online softmax but with attention checkpointing                                                     |
 
