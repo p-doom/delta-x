@@ -26,4 +26,5 @@
 | Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks          | -                    | Language modeling but only using teacher-forcing with probability eps (and annealing eps)                |
 | Sequence Level Training with Recurrent Neural Networks                             | End-to-End Backprop  | Language modeling but top-k last word predictions instead of gt as input with prob eps (+ annealing eps) |
 | Sequence Level Training with Recurrent Neural Networks                             | MIXER                | Language modeling but sequence-level reward-based post-training using REINFORCE                          |
+| Genie: Generative Interactive Environments                                         | Genie                | Video Pretraining but with a learned latent action model                                                 |
 
