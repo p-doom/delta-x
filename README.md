@@ -28,4 +28,6 @@
 | Sequence Level Training with Recurrent Neural Networks                             | MIXER                | Language modeling but sequence-level reward-based post-training using REINFORCE                                  |
 | Genie: Generative Interactive Environments                                         | Genie                | Video Pretraining but with a learned latent action model                                                         |
 | Learning to act without actions                                                    | LAPO                 | Video Pretraining but with unsupervised latent action IDM learned via predictive consistency between IDM and FDM |
+| Behavioral Cloning Transformer                                                     | BCT                  | BC but with a causal transformer, where the context contains the state-action pair sequence                      |
+| Decision Transformer                                                               | DT                   | BCT but with state-action-'return-to-go' triplet sequence instead of state-action pair sequence                  |
 
