@@ -31,4 +31,5 @@
 | Behavioral Cloning Transformer                                                     | BCT                  | BC but with a causal transformer, where the context contains the state-action pair sequence                      |
 | Decision Transformer                                                               | DT                   | BCT but with state-action-'return-to-go' triplet sequence instead of state-action pair sequence                  |
 | Self-Consistency Preference Optimization                                           | ScPO                 | Expert Iteration but with Self-Consistency                                                                       |
+| Self-Rewarding Language Models                                                     |                      | DPO but with LLM-as-a-Judge                                                                                      |
 
