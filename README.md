@@ -30,4 +30,5 @@
 | Learning to act without actions                                                    | LAPO                 | Video Pretraining but with unsupervised latent action IDM learned via predictive consistency between IDM and FDM |
 | Behavioral Cloning Transformer                                                     | BCT                  | BC but with a causal transformer, where the context contains the state-action pair sequence                      |
 | Decision Transformer                                                               | DT                   | BCT but with state-action-'return-to-go' triplet sequence instead of state-action pair sequence                  |
+| Self-Consistency Preference Optimization                                           | ScPO                 | Expert Iteration but with Self-Consistency                                                                       |
 
